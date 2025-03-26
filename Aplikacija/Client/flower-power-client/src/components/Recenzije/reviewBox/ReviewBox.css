@@ -1,0 +1,53 @@
+.review-box, .star-date{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewerPhoto-stars-date{
+    display: flex;
+    flex-direction: row !important;
+    height: 70px;
+    margin: 8px;
+}
+
+.review-box{
+    width: 90%;
+    height: 90%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.message-review{
+    text-align:justify;
+    margin:10px;
+    color: #ce93d8 !important;
+    height: 100%;
+}
+
+.star-date{
+    color: #ab47bc;
+}
+
+.reportReview-button-div{
+    display: flex;
+    width: auto;
+    margin: 5px;
+}
+
+.reportReview-button{
+    background-color: #ce93d8;
+    color: whitesmoke;
+}
+
+.reportReview-button:hover{
+    color: white;
+    background-color:#ab47bc ;
+    color: white;
+    border: 1px solid #e1bee7;
+}
+
+
+

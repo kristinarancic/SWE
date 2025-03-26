@@ -1,0 +1,13 @@
+.registracija-dalje-button
+{
+    background-color: #ba68c8 !important;
+}
+
+.registracija-dalje-button:hover
+{
+    background-color: #ab47bc !important;
+}
+
+.prijava-button{
+    color: #ce93d8 !important;
+}

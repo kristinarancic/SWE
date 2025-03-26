@@ -1,0 +1,142 @@
+.product-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10% 0;
+  flex: 1;
+}
+.product-quantity {
+  margin: 0;
+  font-weight: bolder;
+}
+.product-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-div-product img {
+  display: flex;
+  height: 500px;
+  width: 500px;
+  margin-left: 35%;
+}
+
+.about-product {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.product-page-name {
+  margin-top: -2%;
+  margin-bottom: 10px;
+  color: #7b1fa2;
+}
+
+.product-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-description-p {
+  text-align: justify;
+}
+
+.span-amount {
+  margin-right: 3% !important;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.price-product {
+  color: #ba68c8;
+}
+
+.product-page-button-cart,
+.amount-button {
+  background-color: #f3e5f5;
+  color: #ba68c8;
+}
+/* Sredi ovo */
+.product-page-button-cart:disabled {
+  color: gray;
+}
+
+.product-page-button-cart:hover,
+.amount-button:hover {
+  border-color: #7b1fa2;
+}
+
+.amount-and-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.amount-button {
+  margin-right: 3%;
+}
+
+.product-page-button-cart {
+  margin-top: 2%;
+}
+
+@media (max-width: 1250px) {
+  .image-div-product img {
+    margin-left: 30%;
+  }
+
+  .product-page {
+    height: auto;
+  }
+}
+
+@media (max-width: 1160px) {
+  .image-div-product img {
+    margin-left: 25%;
+  }
+  .about-product {
+    margin-left: 13%;
+  }
+}
+
+@media (max-width: 1160px) {
+  .image-div-product img {
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .product-container {
+    flex-direction: column;
+  }
+
+  .image-div-product img {
+    margin: auto;
+  }
+
+  .about-product {
+    margin: 5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .image-div-product img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-page-name {
+    font-size: 40px;
+  }
+
+  .product-container {
+    margin: 10% 0;
+  }
+}

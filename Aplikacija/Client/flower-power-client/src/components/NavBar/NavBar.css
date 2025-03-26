@@ -1,0 +1,45 @@
+button:focus {
+        outline: none !important;
+        box-shadow: none !important;
+}
+
+.logo-icon {
+        color: white !important;
+}
+      
+.logo-icon:hover {
+        color: #e1bee7 !important;
+}
+
+nav ul li {
+        display: inline-block;
+}
+
+ul{
+        padding-left: 10px;
+}
+.sekcija{
+        color: white !important;
+        margin-left: 15px;
+}
+
+.labels{
+        justify-content: space-between;
+}
+
+
+.logo-nalog{
+        margin-left: 120px !important;
+}
+
+@media (max-width: 930px) {
+        .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.css-137ul40-MuiButtonBase-root-MuiIconButton-root{
+                margin: 0% !important;
+        }
+}
+
+@media (max-width: 390px) {
+        .logotype {
+          font-size: 1.0rem !important;
+        }
+}

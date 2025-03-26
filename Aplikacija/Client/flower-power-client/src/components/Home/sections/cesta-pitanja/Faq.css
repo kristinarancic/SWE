@@ -1,0 +1,53 @@
+.glavni-div{
+    padding: 30px 0;
+    padding-top: 0%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+    margin-bottom: 42px;
+}
+
+.h1-cesta-pitanja{
+    align-self: center; 
+    color: #7b1fa2; 
+    margin: 42px !important;
+} 
+
+.div-pitanja{
+    margin-left: 20px;
+}
+
+.dugme-cesta-pitanja{
+    background-color: white;
+    color:#ab47bc;
+    text-align: left;
+    width: 97%;
+}
+
+.faq{
+    margin-left: 20px;   
+    color:#ba68c8;
+}
+
+.dugme-cesta-pitanja:hover{
+    background-color: #f3e5f5;
+    border: transparent;
+}
+
+@media (max-width: 400px) {
+    .h1-cesta-pitanja{
+        margin: auto;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .faq{
+        margin-left: auto;
+    }
+
+    .dugme-cesta-pitanja{
+        margin: auto;
+    }
+
+}

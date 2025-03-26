@@ -1,0 +1,34 @@
+.sekcije-drawer , .sekcije-drawer-login{
+  color: #4a148c !important;
+  align-self: center;
+}
+
+.ul-drawer, .li-drawers{
+  color: white;
+  text-decoration: none;
+  margin-top: 15px !important;
+  font-size: auto;
+}
+
+.li-drawers{
+  align-self: left;
+}
+
+.ul-drawer{
+  list-style-type: none;
+  margin: 15px;
+  margin-top: 0 !important;
+  padding: 0;
+  width: max-content;
+  font-size:20px;
+}
+
+@media (max-width: 380px) {
+  .ul-drawer{
+          font-size: medium;
+  }
+}
+
+.li-drawers-login{
+  margin-top: 35px;
+}

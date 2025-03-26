@@ -1,0 +1,130 @@
+.Onama {
+  padding: 10px;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e5f5;
+}
+
+.aboutus-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.dugme-opis {
+  width: auto;
+  background-color: #ba68c8;
+  color: white;
+  align-self: center;
+}
+
+.aboutus-photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.div-image-aboutus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.aboutus-photos img {
+  width: 70%;
+  height: auto;
+  margin: 5%;
+}
+
+.p-shop {
+  margin-right: 50px;
+  text-align: justify !important;
+  text-align: left;
+  padding-left: 50px;
+  color: #ab47bc;
+}
+
+.onama-shop {
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #7b1fa2;
+}
+
+@media (max-width: 1090px) {
+  .Onama {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .onama-shop {
+    font-size: 65px;
+  }
+
+  .p-shop {
+    margin-left: 55px;
+    margin-right: 60px;
+    padding-left: 0px !important;
+  }
+
+  .aboutus-photos img {
+    width: 70%;
+  }
+
+  .aboutus-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Onama {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-shop {
+    margin-left: 55px;
+    margin-right: 60px;
+  }
+
+  .aboutus-photos img {
+    width: 50%;
+  }
+
+  .aboutus-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto !important;
+  }
+
+  .aboutus-photos {
+    flex-direction: column;
+  }
+
+  p.shop {
+    font-size: 15px !important;
+  }
+
+  .onama-shop {
+    font-size: 40px;
+  }
+}

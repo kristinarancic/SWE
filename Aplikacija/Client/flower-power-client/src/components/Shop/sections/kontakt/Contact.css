@@ -1,0 +1,145 @@
+
+.container-contact{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    /* background-color: #f3e5f5; */
+    background-color: white;
+}
+
+.informacions-and-button, .workingHours-and-socialMedias{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* border:1px solid white; */
+    font-weight: lighter !important;
+    
+}
+
+.informations-shops{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: self-start; */
+    
+}
+
+.basic-infos{
+    font-weight: bolder !important;
+    margin: 10px;
+    align-self: self-start;
+    flex: 1;
+}
+
+.workingHours-and-socialMedias{
+    justify-content: center;
+    align-items: center;
+    color: #ba68c8;
+}
+
+.rounded-div{
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0.3, 0.3);
+    padding: 16px;
+    /* background-color: #ba68c8; */
+    /* background-color: white; */
+    background-color: #f3e5f5;
+    margin:30px;
+    color: #ba68c8 !important;
+}
+
+.contact-shop-h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contact-us-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contact-us, .button-changeInf{
+    color: #ba68c8 !important;
+    border: 2px solid #e1bee7 !important;
+}
+
+.contact-us:hover{
+    background-color: #e1bee7 !important;
+    color: whitesmoke !important;
+}
+
+.button-changeInf{
+    width: 30%;
+    align-self: center;
+}
+
+.button-changeInf:hover{
+    background-color: transparent !important;
+}
+
+
+.text-and-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.workingHours{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.icon{
+    font-size: 50px !important ;
+    color: #9c27b0;
+}
+
+.icon:hover{
+    background-color: transparent !important;
+    /*OVDE IMA PLAVO NESTO POZADI, NE ZNAM STA*/
+}
+
+.hr-contact{
+    border-top: '1px solid red !important';
+  background-color: 'red !important';
+  height: 0;
+}
+
+.wh-h3{
+    font-weight: bolder;
+}
+
+@media (max-width: 1105px) {
+    .button-changeInf{
+        width: 50%;
+    }
+}
+
+@media (max-width: 680px) {
+    .container-contact{
+        flex-direction: column;
+    }
+    .button-changeInf{
+        width: 40%;
+    }
+}
+
+@media (max-width: 436px) {
+    .text-and-icon{
+        font-size: 12px
+    }
+
+    .workingHours{
+        font-size: 20px;
+    }
+
+    .button-changeInf{
+        width: 60%;
+    }
+}

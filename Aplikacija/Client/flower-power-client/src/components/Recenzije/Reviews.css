@@ -1,0 +1,20 @@
+.recenzije-sekcija {
+    background-color: #e1bee7 !important;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recenzije-naslov{
+    color: #ce93d8;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .naslov-recenzije{
+    color: white;
+    align-self: center;
+  }
+  

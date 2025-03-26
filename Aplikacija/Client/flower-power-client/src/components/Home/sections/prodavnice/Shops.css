@@ -1,0 +1,92 @@
+  .shop-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shop-card{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid #e1bee7;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+  }
+  
+  .button-visitShop{
+    color: #ba68c8;
+    background-color: transparent !important;
+    border: 2px solid #f3e5f5;
+  }
+
+  .shop-img {
+    width: 70%;
+    margin: 15px;
+  }
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-name{
+  margin: auto;
+  color: #7b1fa2;
+  font-weight: bold;
+}
+
+  .shops{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3e5f5;
+  }
+
+  .shop-shop{
+    align-self: center;
+    color: #9c27b0;
+    margin: 15px;
+  }
+
+  .button-visitShop:hover{
+    border: 2px solid #e1bee7;
+  }
+
+@media (max-width: 1000px) {
+    .shop-card{
+        width: 25%;
+    }
+}
+
+@media (max-width: 750px) {
+    .shop-card{
+        width: 35%;
+    }
+    .shop-grid {
+        justify-content: space-around;
+      }
+}
+
+@media (max-width: 500px) {
+    .shop-card{
+        width: 60%;
+    }
+}
+
+.show-more{
+    margin-top: 20px;
+    height: auto;
+    background-color:#ba68c8 ;
+    border: 1px solid #e1bee7;
+    color: white;
+  }
+
+  .show-more:hover{
+    color: white;
+    background-color:#ab47bc ;
+    color: white;
+    border: 1px solid #e1bee7;
+  }

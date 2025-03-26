@@ -1,0 +1,9 @@
+.button-stop-purchare{
+    background-color:transparent !important;
+    color: #ba68c8 !important;
+}
+
+.button-stop-purchare:hover{
+    background-color:transparent !important;
+    color: #ab47bc !important;
+}

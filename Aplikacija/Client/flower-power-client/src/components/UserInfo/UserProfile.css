@@ -1,0 +1,121 @@
+.user-profile-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.contact-label{
+  margin-right: 2px !important;
+  font-weight:bolder !important;
+}
+
+.top-side-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  margin: 40px;
+}
+
+.user-avatar {
+  width: 350px !important;
+  height: 350px !important;
+  border-radius: 50%;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle-side {
+  flex: 1;
+  display: flex;
+}
+
+.middle-side {
+  margin-left: 5%;
+}
+
+.user-name {
+  margin-bottom: 5%;
+  color: #9c27b0;
+}
+
+.location-info{
+  align-self: center;
+  justify-self: center;
+  font-size: 16px !important;
+}
+
+.contact-heading {
+  font-size: 25px;
+  font-style: italic;
+  color: #ba68c8;
+}
+
+/* Podesi visinu */
+.user-reviews {
+  min-height: max-content;
+  height: auto;
+  width: 100%;
+}
+
+.location-icon{
+  margin-left: -5px !important;
+  align-self: flex-start !important;
+}
+
+.contact-item {
+  margin-bottom: 3%;
+}
+
+@media (max-width: 780px) {
+  .top-side-user {
+    flex-direction: column;
+  }
+
+  .middle-side {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 400px) {
+  .user-name {
+    font-size: 40px;
+  }
+
+  .contact-heading {
+    font-size: 18px;
+  }
+
+  .contact-label,
+  .contact-value,
+  .location-icon,
+  .location-info {
+    font-size: 12px !important;
+  }
+
+  .location-icon{
+    margin-left: 0 !important;
+    align-self: center !important;
+    justify-self: center !important;
+    margin-bottom: 2px !important;
+  }
+
+  .left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .user-avatar {
+    width: 280px !important;
+    height: 280px !important;
+    border-radius: 50%;
+  }
+}
